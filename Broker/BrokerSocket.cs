@@ -1,5 +1,4 @@
-﻿
-using Common;
+﻿using Common;
 using System;
 using System.Net;
 using System.Net.Sockets;
@@ -64,6 +63,8 @@ namespace Broker
                 {
                     byte[] payload = new byte[buffSize];
                     Array.Copy(connection.Data, payload, buffSize);
+
+                    PayloadHandler.Handle(payload, connection); 
                 }
             } 
             catch(Exception ex)
@@ -80,7 +81,8 @@ namespace Broker
                 {
                     Console.Write($"{ex.Message}");
                     var address = connection.Socket.RemoteEndPoint.ToString();
-
+                    
+                    ConnectionsStorage.Remove(address);
                     connection.Socket.Close();
                 }
             }

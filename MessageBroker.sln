@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31613.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Publisher", "Publisher\Publisher.csproj", "{EC23FAEF-311A-4995-9BD6-EC81C8946390}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Publisher", "Publisher\Publisher.csproj", "{EC23FAEF-311A-4995-9BD6-EC81C8946390}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Settings\Common.csproj", "{58876D3B-0194-448F-8C2E-F05F77F99F87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "Settings\Common.csproj", "{58876D3B-0194-448F-8C2E-F05F77F99F87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Broker", "Broker\Broker.csproj", "{1776BC76-1182-43B6-913B-1F7A051EBF51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Broker", "Broker\Broker.csproj", "{1776BC76-1182-43B6-913B-1F7A051EBF51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subscriber", "Subscriber\Subscriber.csproj", "{C746B4AA-EA26-4A16-A6A1-5E7F1A1A1AAE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{1776BC76-1182-43B6-913B-1F7A051EBF51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1776BC76-1182-43B6-913B-1F7A051EBF51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1776BC76-1182-43B6-913B-1F7A051EBF51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C746B4AA-EA26-4A16-A6A1-5E7F1A1A1AAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C746B4AA-EA26-4A16-A6A1-5E7F1A1A1AAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C746B4AA-EA26-4A16-A6A1-5E7F1A1A1AAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C746B4AA-EA26-4A16-A6A1-5E7F1A1A1AAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lihT/Y2j68ZFl4IVpjLWR9beQ2XUc9sgvbb3jZusdqfxfbwhPVZ3mGxqSLyniZHcfa2iJ1kT0A+YADF3aryrZw==",
+  "dgSpecHash": "PsqayysSf2Iukna+XczguifnT5J89Q+Lj1ClHp5bzxVJdE5x80QEXMfkjYKONOzsfuxXXymrOysmfU0t4g6lpQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cpole\\source\\repos\\MessageBroker\\Settings\\Common.csproj",
+  "projectFilePath": "C:\\Users\\Mike\\Source\\Repos\\PAD\\Settings\\Common.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Common;
+using System;
+using System.Threading.Tasks;
 
 namespace Broker
 {
@@ -7,6 +9,14 @@ namespace Broker
         static void Main(string[] args)
         {
             Console.WriteLine("Broker!");
+
+            BrokerSocket socket = new BrokerSocket();
+            socket.Start(Settings.BROKER_IP, Settings.BROKER_PORT);
+
+            var worker = new Worker();
+            Task.Factory.StartNew(worker.DoSendMessageWork, TaskCreationOptions.LongRunning);
+
+            Console.ReadLine();
         }
     }
 }

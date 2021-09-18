@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "8cxfE1deMEp/YDPWofO/+46RZ3mmQyNq5HZC+xg2algKGsQuq6/4dcG6dOie6abwHoWAgyElkFwKZQlI1rkwQQ==",
+  "dgSpecHash": "WYJEJJLeIGRFR8gEasv7V8dheBUEXrpiwZEpTeF5OrOrYMLxBzFpU9bx8QiN/geIghef2eKKaEZ74UfWLeASsQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cpole\\source\\repos\\MessageBroker\\Publisher\\Publisher.csproj",
+  "projectFilePath": "C:\\Users\\Mike\\Source\\Repos\\PAD\\Publisher\\Publisher.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\cpole\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+    "C:\\Users\\Mike\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],
   "logs": []
 }
