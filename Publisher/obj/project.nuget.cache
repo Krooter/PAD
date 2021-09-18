@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "8cxfE1deMEp/YDPWofO/+46RZ3mmQyNq5HZC+xg2algKGsQuq6/4dcG6dOie6abwHoWAgyElkFwKZQlI1rkwQQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\cpole\\source\\repos\\MessageBroker\\Publisher\\Publisher.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cpole\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
